@@ -18,6 +18,10 @@
  * Please contact us before using this plugin.
  */
 
+if ( class_exists( 'WPCOM_Legacy_Redirector' ) ) {
+	return;
+}
+
 if ( defined( 'WP_CLI' ) && WP_CLI ) {
 	require( __DIR__ . '/includes/wp-cli.php' );
 }
