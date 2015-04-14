@@ -1,0 +1,13 @@
+{
+	"name": "aaronholbrook/wpcom-legacy-redirector",
+	"description": "Clone of the wpcom-legacy-redirector plugin",
+	"type": "wordpress-plugin",
+	"license": "GPLv2",
+	"authors": [
+		{
+			"name": "Aaron Holbrook",
+			"email": "aaron@holbrook.io",
+			"homepage": "http://aaronjholbrook.com"
+		}
+	]
+}
