@@ -18,7 +18,7 @@
  * Please contact us before using this plugin.
  */
 
-if ( defined( 'WPCOM_Legacy_Redirector' ) ) {
+if ( class_exists( 'WPCOM_Legacy_Redirector' ) ) {
 	return;
 }
 
